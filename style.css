@@ -74,3 +74,11 @@ a.artw:hover { color: black;text-decoration: none;
 	border-bottom: 0px dashed;}
 a.artw:active {color: black;text-decoration: none;
 	border-bottom: 0px dashed;}
+
+/* below is for writing */
+div.writ {
+font-family: gabriola,calibri,arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
