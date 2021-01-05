@@ -62,6 +62,15 @@ font-family: calibri,arial;
   color: black;
 }
 
+div.lower {
+font-family: calibri,arial;
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  left: 45%;
+  bottom: 15%;
+}
+
 /* Below is for artwork */
 .imgart {
   border: 1px dashed black;
