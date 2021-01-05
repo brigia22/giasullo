@@ -1,11 +1,15 @@
 /* everything */
-a:link {color: black;text-decoration: none;
-	border-bottom: 1px dashed black;}
-a:visited {color: black;text-decoration: none;
+a:link {color: #002166;text-decoration: none;
+	font-weight: bold;
+	border-bottom: 0px dashed black;}
+a:visited {color: #002166;text-decoration: none;
+	font-weight: bold;
 	border-bottom: 1px dashed black;}
 a:hover { color: black;text-decoration: none;
+	font-weight: bold;
 	border-bottom: 0px dashed;}
 a:active {color: black;text-decoration: none;
+	font-weight: bold;
 	border-bottom: 0px dashed;}
   
 body {
