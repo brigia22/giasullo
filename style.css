@@ -64,15 +64,15 @@ font-family: calibri,arial;
 
 div.lower {
 	position: fixed;
-	left: 45%;
-  bottom: 15%;
+	left: 40%;
+  bottom: 12%;
 font-family: calibri,arial;
   text-align: left;
   font-size: 16px;
   color: black;
 }
 
-/* Below is for artwork */
+/* artwork */
 .imgart {
   border: 1px dashed black;
   padding: 0px;
