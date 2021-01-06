@@ -18,10 +18,6 @@ a:active {color: black;text-decoration: none;
 body {
   background-image: url("background.jpg");
   background-attachment: fixed;
-  padding-top: 10%;
-  padding-right: 25%;
-  padding-left: 10%;
-  padding-bottom: 5%;
   background-color: lightsteelblue;
 }
 
@@ -57,6 +53,7 @@ header {
 
 /* Replaces menu. Create two columns/boxes that floats next to each other */
 nav {
+  position: fixed;
   float: left;
   width: 30%;
    padding: 20px;
@@ -77,7 +74,7 @@ nav ul {
 }
 
 article {
-  float: left;
+  float: right;
   padding: 20px;
   width: 70%;
 font-family: calibri,arial;
@@ -144,7 +141,7 @@ a.artw:active {color: black;text-decoration: none;
 
 /* writing */
 div.writ {
-position: fixed;
+position: relative;
 left: 50%;
   top: 15%;
 width: 600px;
