@@ -34,8 +34,7 @@ hr.dash {
 }
 
 div.title {
-  position: absolute;
-		left: 42%;
+		left: 40%;
   top: 15%;
 	right: 13%;
   text-align: center;
@@ -46,10 +45,9 @@ div.title {
 }
 
 div.stuff {
- position: absolute;
-		left: 38%;
+		left: 35%;
   top: 40%;
-	right: 10%;
+	right: 12%;
 	bottom: 15%;
 font-family: calibri,arial;
   text-align: left;
