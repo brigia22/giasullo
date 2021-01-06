@@ -30,8 +30,8 @@ img.name {
    position: fixed;
   max-width: 100%;
   height: auto;
-  left: 40%;
-  top: 5%;
+  left: 25%;
+  top: 15%;
 }
 
 hr.dash {
@@ -54,8 +54,9 @@ header {
 /* Replaces menu. Create two columns/boxes that floats next to each other */
 nav {
   position: fixed;
-  float: left;
-  width: 30%;
+  left: 25%;
+  top: 35%;
+  width: 25%;
    padding: 20px;
 font-family: calibri,arial;
   text-align: center;
