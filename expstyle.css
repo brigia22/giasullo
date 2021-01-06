@@ -34,6 +34,7 @@ hr.dash {
 }
 
 div.title {
+	position: absolute;
 		left: 40%;
   top: 15%;
 	right: 13%;
@@ -45,6 +46,7 @@ div.title {
 }
 
 div.stuff {
+	position: absolute;
 		left: 35%;
   top: 40%;
 	right: 12%;
