@@ -34,7 +34,7 @@ hr.dash {
 }
 
 /* Style the header */
-header {
+div.title {
   padding: 10px;
   text-align: center;
   font-family: gabriola,calibri,arial;
@@ -51,7 +51,7 @@ img.name {
   top: 10%;
 }
 
-nav {
+div.menu {
   position: fixed;
   left: 10%;
   top: 20%;
@@ -82,7 +82,7 @@ nav ul {
   color: black;
 }
 
-article {
+div.stuff {
  position: absolute;
 		left: 50%;
   bottom: 12%;
