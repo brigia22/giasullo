@@ -32,6 +32,8 @@ max-width: 100%;
 
 img.name {
    position: fixed;
+  max-width: 100%;
+  height: auto;
   left: 40%;
   top: 5%;
 }
@@ -78,8 +80,10 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+font-family: calibri,arial;
+  text-align: left;
+  font-size: 18px;
+  color: black;
 }
 
 /* Clear floats after the columns */
@@ -106,58 +110,7 @@ footer {
 }
 
 
-
-
 /* my shit below */
-
-
-img {
-max-width: 100%;
-  height: auto;
-}
-
-hr.dash {
-	border-top: 1px dashed black; 
-  height: 1px; 
-	width: 300px;
-  border-bottom: 0px;
-}
-
-/* menu */
-
-   
-div.menu {
-  position: fixed;
-  left: 10%;
-  top: 25%;
-font-family: calibri,arial;
-  text-align: center;
-  font-size: 20px;
-  color: black;
-}
- 
- /* each page */
-div.title {
-position: fixed;
-left: 50%;
-  top: 15%;
-width: 600px;
-font-family: gabriola,calibri,arial;
-  text-align: center;
-  font-size: 40px;
-  color: black;
-}
-	
-div.stuff {
-position: fixed;
-left: 50%;
-  top: 15%;
-width: 600px;
-font-family: calibri,arial;
-  text-align: left;
-  font-size: 18px;
-  color: black;
-}
 
 div.lower {
 	position: fixed;
