@@ -26,14 +26,6 @@ max-width: 100%;
   height: auto;
 }
 
-img.name {
-   position: fixed;
-  max-width: 100%;
-  height: auto;
-  left: 25%;
-  top: 15%;
-}
-
 hr.dash {
 	border-top: 1px dashed black; 
   height: 1px; 
@@ -51,13 +43,19 @@ header {
   color: black;
 }
 
-/* Replaces menu. Create two columns/boxes that floats next to each other */
+img.name {
+   position: fixed;
+  max-width: 100%;
+  height: auto;
+  left: 20%;
+  top: 15%;
+}
+
 nav {
   position: fixed;
-  left: 25%;
-  top: 35%;
-  width: 25%;
-   padding: 20px;
+  left: 20%;
+  top: 30%;
+  width: 20%;
 font-family: calibri,arial;
   text-align: center;
   font-size: 20px;
@@ -66,7 +64,7 @@ font-family: calibri,arial;
 
 div.lower {
 	position: fixed;
-	left: 25%;
+	left: 20%;
   bottom: 12%;
 font-family: calibri,arial;
   text-align: left;
@@ -85,9 +83,10 @@ nav ul {
 }
 
 article {
-  float: right;
-  padding: 20px;
-  width: 70%;
+  position: relative;
+	left: 50%;
+  bottom: 12%;
+  top: 12%;
 font-family: calibri,arial;
   text-align: left;
   font-size: 18px;
