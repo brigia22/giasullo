@@ -33,7 +33,7 @@ hr.dash {
   border-bottom: 0px;
 }
 
-div.title {
+.title {
 	position: absolute;
 		left: 25%;
   top: 20%;
@@ -45,7 +45,7 @@ div.title {
   color: black;
 }
 
-div.stuff {
+.stuff {
 	position: absolute;
 		left: 25%;
   top: 40%;
@@ -65,7 +65,7 @@ img.name {
   top: 15%;
 }
 
-div.menu {
+.menu {
   position: fixed;
   left: 1%;
   top: 25%;
@@ -113,7 +113,7 @@ footer {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  menu, title, stuff {
+  .menu, .title, .stuff {
     width: 100%;
     height: auto;
   }
