@@ -127,21 +127,21 @@ footer {
 @media (max-width: 600px) {
   
   .name {
-    position: absolute;
+    position: static;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .menu {
-    position: absolute;
+    position: static;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .title {
-    position: absolute;
+    position: static;
     width: 100%;
     height: auto;
     text-align: center;
@@ -149,14 +149,14 @@ footer {
   }
   
   .stuff {
-   position: absolute;
+   position: static;
     width: 100%;
     height: auto;
     text-align: left;
   }
   
   .writ {
-   position: absolute;
+   position: static;
     width: 100%;
     height: auto;
     text-align: left;
@@ -164,7 +164,7 @@ footer {
   }
   
     .lower {
-     position: absolute;
+     position: static;
     width: 100%;
     height: auto;
     text-align: left;
