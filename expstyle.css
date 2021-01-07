@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 a:link {color: #42536C;text-decoration: none;
 	font-weight: bold;
@@ -116,7 +114,6 @@ footer {
 @media (max-width: 600px) {
   .name {
     order: 1;
-    position: static;
     width: 100%;
     height: auto;
     text-align: center;
@@ -124,7 +121,6 @@ footer {
   
   .menu {
     order: 2;
-    position: static;
     width: 100%;
     height: auto;
     text-align: center;
@@ -132,7 +128,6 @@ footer {
   
   .title {
     order: 3;
-    position: static;
     width: 100%;
     height: auto;
     text-align: center;
@@ -140,7 +135,6 @@ footer {
   
   .stuff {
     order: 4;
-    position: static;
     width: 100%;
     height: auto;
     text-align: left;
@@ -148,7 +142,6 @@ footer {
   
     .lower {
       order: 5;
-	  position: static;
     width: 100%;
     height: auto;
     text-align: left;
