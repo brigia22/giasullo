@@ -33,6 +33,26 @@ hr.dash {
   border-bottom: 0px;
 }
 
+.name {
+   position: fixed;
+  max-width: 100%;
+  height: auto;
+  left: 3%;
+  top: 15%;
+	text-align: center;
+}
+
+.menu {
+  position: fixed;
+  left: 1%;
+  top: 25%;
+  width: 20%;
+font-family: calibri,arial;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
 .title {
 	position: absolute;
 		left: 25%;
@@ -57,26 +77,7 @@ font-family: calibri,arial;
   color: black;
 }
 
-.name {
-   position: fixed;
-  max-width: 100%;
-  height: auto;
-  left: 3%;
-  top: 15%;
-}
-
-.menu {
-  position: fixed;
-  left: 1%;
-  top: 25%;
-  width: 20%;
-font-family: calibri,arial;
-  text-align: center;
-  font-size: 20px;
-  color: black;
-}
-
-div.lower {
+.lower {
 	position: fixed;
 	left: 9%;
   bottom: 8%;
