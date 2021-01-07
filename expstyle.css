@@ -117,6 +117,7 @@ footer {
   }
   
   .name {
+    position: static;
     display: table-header-group;
     width: 100%;
     height: auto;
@@ -124,24 +125,28 @@ footer {
   }
   
   .menu {
+    position: static;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .title {
+    position: static;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .stuff {
+    position: static;
     width: 100%;
     height: auto;
     text-align: left;
   }
   
     .lower {
+      position: static;
       display: table-footer-group;
     width: 100%;
     height: auto;
