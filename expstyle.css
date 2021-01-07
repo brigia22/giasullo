@@ -57,7 +57,7 @@ font-family: calibri,arial;
   color: black;
 }
 
-img.name {
+.name {
    position: fixed;
   max-width: 100%;
   height: auto;
@@ -113,7 +113,7 @@ footer {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  .menu, .title, .stuff {
+  .name, .menu, .title, .stuff, .lower {
 	  position: static;
     width: 100%;
     height: auto;
