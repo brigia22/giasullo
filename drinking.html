@@ -3,9 +3,46 @@
   
 <head>
 <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-  
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
 <body>
+
+<div w3-include-html="expmenu.html"></div> 
+
+<script>
+includeHTML();
+</script>
 
  <div class="writ">
 	 <p>What Are You Drinking?</p>
@@ -14,7 +51,8 @@
 
 <div class="stuff">
   
-  <p><i>Note: This was originally written on 3/1/17 and is kind of funny to look back on, considering the current state of things.</i></p>
+  <p><i>Note: This was originally written on March 1, 2017 and is kind of funny to look back on, considering the current state of things.</i></p>
+  <br>
 
 <p>Recently I was sitting at Kite and Key by myself having just gotten out of work and wanting a quick beer at a nearby spot. I believe I was drinking some kind of blueberry sour (apologies for not remembering the name or anything though I remember enjoying it) when the gentleman sitting next to me asked me what I was drinking. My very first instinct was to kind of side glance at his beer. He was drinking a Bud Lite bottle so who knows why he wanted to know the name of my beer when most likely it would mean absolutely nothing to him. My very second instinct was to tell him that my beer was good and my very third instinct was to ask if he wanted to try a sip. After giving me that sort of half frown and gentle nod that conveys mild understanding but not really, the guy politely declined and continued on with his Bud, leaving me back with my sour and thoughts.</p>
 
