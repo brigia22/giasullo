@@ -1,5 +1,4 @@
 
-
 a:link {color: #42536C;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed black;}
@@ -42,7 +41,7 @@ hr.dash {
 
 .menu {
   position: fixed;
-  left: 5%;
+  left: 3%;
   top: 25%;
   width: 20%;
 font-family: calibri,arial;
@@ -77,8 +76,8 @@ font-family: calibri,arial;
 
 .lower {
 	position: fixed;
-	left: 10%;
-  bottom: 8%;
+	left: 9%;
+  bottom: 7%;
 font-family: calibri,arial;
   text-align: left;
   font-size: 16px;
@@ -112,36 +111,38 @@ footer {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
+  
+  .parent {
+    display: table;
+  }
+  
   .name {
-    order: 1;
+    display: table-header-group;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .menu {
-    order: 2;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .title {
-    order: 3;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .stuff {
-    order: 4;
     width: 100%;
     height: auto;
     text-align: left;
   }
   
     .lower {
-      order: 5;
+      display: table-footer-group;
     width: 100%;
     height: auto;
     text-align: left;
