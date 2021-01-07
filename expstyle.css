@@ -74,6 +74,20 @@ font-family: calibri,arial;
   color: black;
 }
 
+/* writing might need to remove this */
+div.writ {
+position: absolute;
+left: 30%;
+  right: 20%;
+  top: 40%;
+  bottom: 15%;
+font-family: gabriola,calibri,arial;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+
 .lower {
 	position: fixed;
 	left: 9%;
@@ -112,42 +126,45 @@ footer {
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   
-  .parent {
-    display: table;
-  }
-  
   .name {
-    position: static;
-    display: table-header-group;
+    position: absolute;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .menu {
-    position: static;
+    position: absolute;
     width: 100%;
     height: auto;
     text-align: center;
   }
   
   .title {
-    position: static;
+    position: absolute;
     width: 100%;
     height: auto;
     text-align: center;
+     font-size: 30px;
   }
   
   .stuff {
-    position: static;
+   position: absolute;
     width: 100%;
     height: auto;
     text-align: left;
   }
   
+  .writ {
+   position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 30px;
+  }
+  
     .lower {
-      position: static;
-      display: table-footer-group;
+     position: absolute;
     width: 100%;
     height: auto;
     text-align: left;
@@ -174,14 +191,3 @@ a.artw:hover { color: black;text-decoration: none;
 a.artw:active {color: black;text-decoration: none;
 	border-bottom: 0px dashed;}
 
-/* writing might need to remove this */
-div.writ {
-position: relative;
-left: 25%;
-  right: 25%;
-  top: 15%;
-font-family: gabriola,calibri,arial;
-  text-align: center;
-  font-size: 30px;
-  color: black;
-}
