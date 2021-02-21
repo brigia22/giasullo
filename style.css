@@ -1,8 +1,8 @@
 
-a:link {color: #99CED3;text-decoration: none;
+a:link {color: #EDB5BF;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed black;}
-a:visited {color: #99CED3;text-decoration: none;
+a:visited {color: #EDB5BF;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 1px dashed black;}
 a:hover { color: #86B3D1;text-decoration: none;
@@ -24,7 +24,7 @@ max-width: 100%;
 }
 
 hr.dash {
-	border-top: 1px dashed black; 
+	border-top: 1px dashed white; 
   height: 1px; 
 	width: 300px;
   border-bottom: 0px;
@@ -47,7 +47,7 @@ hr.dash {
 font-family: 'karla',calibri,arial;
   text-align: center;
   font-size: 20px;
-  color: EDB5BF;
+  color: white;
 }
 
 .title {
@@ -71,7 +71,7 @@ font-family: 'karla',calibri,arial;
 font-family: 'karla',calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: #EDB5BF;
+  color: white;
 }
 
 .lower {
@@ -81,7 +81,7 @@ font-family: 'karla',calibri,arial;
 font-family: 'karla',calibri,arial;
   text-align: left;
   font-size: 16px;
-  color: #EDB5BF;
+  color: white;
 }
 
 /* Clear floats after the columns */
@@ -142,7 +142,7 @@ section::after {
 
 /* artwork */
 .imgart {
-  border: 1px dashed black;
+  border: 1px dashed white;
   padding: 0px;
   opacity: 0.7;
 }
