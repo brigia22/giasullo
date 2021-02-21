@@ -5,7 +5,7 @@ a:link {color: #EDB5BF;text-decoration: none;
 a:visited {color: #EDB5BF;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 1px dashed black;}
-a:hover { color: #86B3D1;text-decoration: none;
+a:hover { color: #99ced3;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed;}
 a:active {color: 86B3D1;text-decoration: none;
@@ -15,7 +15,7 @@ a:active {color: 86B3D1;text-decoration: none;
 body {
   background-image: url("background.jpg");
   background-attachment: fixed;
-  background-color: lightsteelblue;
+  background-color: #5f6366;
 }
 
 img {
