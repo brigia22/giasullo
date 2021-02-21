@@ -1,14 +1,14 @@
 
-a:link {color: #1A5276;text-decoration: none;
+a:link {color: #99CED3;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed black;}
-a:visited {color: #1A5276;text-decoration: none;
+a:visited {color: #99CED3;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 1px dashed black;}
-a:hover { color: black;text-decoration: none;
+a:hover { color: #86B3D1;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed;}
-a:active {color: black;text-decoration: none;
+a:active {color: 86B3D1;text-decoration: none;
 	font-weight: bold;
 	border-bottom: 0px dashed;}
 
@@ -47,7 +47,7 @@ hr.dash {
 font-family: 'karla',calibri,arial;
   text-align: center;
   font-size: 20px;
-  color: black;
+  color: EDB5BF;
 }
 
 .title {
@@ -59,7 +59,7 @@ font-family: 'karla',calibri,arial;
   font-family: gabriola,calibri,arial;
   text-align: center;
   font-size: 45px;
-  color: black;
+  color: #EDB5BF;
 }
 
 .stuff {
@@ -71,7 +71,7 @@ font-family: 'karla',calibri,arial;
 font-family: 'karla',calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: black;
+  color: #EDB5BF;
 }
 
 .lower {
@@ -81,7 +81,7 @@ font-family: 'karla',calibri,arial;
 font-family: 'karla',calibri,arial;
   text-align: left;
   font-size: 16px;
-  color: black;
+  color: #EDB5BF;
 }
 
 /* Clear floats after the columns */
