@@ -142,13 +142,14 @@ section::after {
 
 /* artwork */
 .imgart {
-  border: 1px dashed white;
+  border: 1px dashed #EDB5BF;
   padding: 0px;
   opacity: 0.7;
 }
 
 img.imgart:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  border: 1px dashed #99ced3;
 }
 
 a.artw:link {color: black;text-decoration: none;
