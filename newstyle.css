@@ -1,0 +1,104 @@
+a:link {color: #f78888;text-decoration: none;
+	font-weight: bold;
+	border-bottom: 0px dashed black;}
+a:visited {color: #f78888;text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px dashed black;}
+a:hover { color: #90ccf4;text-decoration: none;
+	font-weight: bold;
+	border-bottom: 0px dashed;}
+a:active {color: #90ccf4;text-decoration: none;
+	font-weight: bold;
+	border-bottom: 0px dashed;}
+
+body {
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-color: #ececec;
+}
+
+img {
+max-width: 100%;
+  height: auto;
+}
+
+hr.dash {
+	border-top: 1px dashed #f78888; 
+  height: 1px; 
+	width: 300px;
+  border-bottom: 0px;
+}
+
+.name {
+   position: static;
+  max-width: 100%;
+  height: auto;
+   top: 10%;
+	text-align: center;
+}
+
+.menu {
+  position: static;
+  top: 25%;
+  font-family: karla,calibri,arial;
+  text-align: center;
+  font-size: 20px;
+  color: #5da2d5;
+}
+
+.title {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+  font-family: Gentium Basic,calibri,arial;
+  text-align: center;
+  font-size: 36px;
+  color: #5da2d5;
+}
+
+.stuff {
+	position: absolute;
+  left: 20%
+    right: 20%
+		top: 60%;
+	bottom: 15%;
+font-family: karla,calibri,arial;
+  text-align: left;
+  font-size: 18px;
+  color: 605C5C;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 700px) {
+  name, menu, title, stuff {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* artwork */
+.imgart {
+  border: 1px dashed #f78888;
+  padding: 0px;
+  opacity: 0.7;
+}
+
+img.imgart:hover {
+   border: 1px dashed #90ccf4;
+}
+
+a.artw:link {color: black;text-decoration: none;
+	border-bottom: 0px dashed black;}
+a.artw:visited {color: black;text-decoration: none;
+	border-bottom: 0px dashed black;}
+a.artw:hover { color: black;text-decoration: none;
+	border-bottom: 0px dashed;}
+a.artw:active {color: black;text-decoration: none;
+	border-bottom: 0px dashed;}
