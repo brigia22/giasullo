@@ -19,9 +19,9 @@ max-width: 100%;
 }
 
 hr.dash {
-	border-top: 1px dashed #f78888; 
+	border-top: 1px dashed #545454; 
   height: 1px; 
-	width: 300px;
+	width: 400px;
   border-bottom: 0px;
 }
 
