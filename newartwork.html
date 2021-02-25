@@ -6,43 +6,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
   
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /*loop through a collection of all HTML elements:*/
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /*make an HTTP request using the attribute value as the file name:*/
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /*remove the attribute, and call this function once more:*/
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /*exit the function:*/
-      return;
-    }
-  }
-};
-</script>
 
 <body>
 
-<div w3-include-html="newmenu.html"></div> 
+<div class="name">
+	<img src="name.png" alt="Briana Giasullo">
+	</div>
 
-<script>
-includeHTML();
-</script>
+    
+<div class="menu">
+	
+<br>
+<a href="index.html">About</a> | 
+	
+<a href="artwork.html">Artwork</a> |
+	
+<a href="https://docs.google.com/document/d/e/2PACX-1vTQZxkR134njrTK1Xh_wOHlOUdjdvzKAvJrrT93AzkXvYOanPP14cY9mXiMd-U-V3A0p6lZLz9LTQQ5/pub" target="_blank">Resume</a> |
+	
+<a href="writing.html">Writing</a>  
+	
+	</div>
+
+		<div class="findme">
+    
+			<p> Find me on:</p>
+	  
+    <p>  &#9997; &nbsp;<a href="http://bgiasullo.blogspot.com/" target="_blank">Blogger</a>&nbsp;</p>
+  <p>&#128216; &nbsp;<a href="https://www.goodreads.com/user/show/121401632-briana" target="_blank">GoodReads</a>&nbsp;</p>
+<p>&#128213; &nbsp;<a href="https://www.librarything.com/profile/brigiabooks" target="_blank">LibraryThing</a>&nbsp;</p>
+<p>	&#128188; &nbsp;<a href="https://www.linkedin.com/in/brianagiasullo" target="_blank">LinkedIn</a>&nbsp;</p>
+  
+		<br>
+		
+ </div>
+	<hr class="dash"></hr>
 
  <div class="title">
 	 <p>Artwork</p>
