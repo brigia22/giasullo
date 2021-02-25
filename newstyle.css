@@ -40,11 +40,8 @@ hr.dash {
 }
 
 .findme {
-  position: fixed;
-  top: 10px;
-  left: 10px;
   font-family: karla,calibri,arial;
-  text-align: left;
+  text-align: center;
   font-size: 15px;
   color: #5da2d5;
 }
