@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<link rel="stylesheet" href="newstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+<body>
+
+<div w3-include-html="menu.html"></div> 
+
+<script>
+includeHTML();
+</script>
+
+ <div class="title">
+	 <p>Artwork</p>
+</div>
+
+<div class="stuff">
+  <p>I studied art and art history at West Chester University, focusing mainly on painting and drawing. I don't create art nearly as much as I used to, but here are some oldies that I'm proud of. They are in (very) loose chronological in order, starting with newest on the top left and oldest on the bottom right.</p>
+  <br>
+		
+ 
+  <center>
+	  <br>
+    <a class="artw" target="_blank" href="vr.jpg">
+  <img class="imgart" src="tvr.jpg" alt="Secure the Galactic Perimeter">
+</a>
+<a class="artw" target="_blank" href="dfw.jpg">
+  <img class="imgart" src="tdfw.jpg" alt="David Foster Wallace">
+</a>
+  <a class="artw" target="_blank" href="shore.jpg">
+  <img class="imgart" src="tshore.jpg" alt="Down the Shore">
+</a>
+  <a class="artw" target="_blank" href="bowen.jpg">
+  <img class="imgart" src="tbowen.jpg" alt="Bowen">
+</a>
+  <a class="artw" target="_blank" href="deer.jpg">
+  <img class="imgart" src="tdeer.jpg" alt="Deer">
+</a>
+  <a class="artw" target="_blank" href="bubba.jpg">
+  <img class="imgart" src="tbubba.jpg" alt="Bubba">
+</a>
+  <a class="artw" target="_blank" href="sneak.jpg">
+  <img class="imgart" src="tsneak.jpg" alt="The Sneak">
+</a>
+  <a class="artw" target="_blank" href="dream.jpg">
+  <img class="imgart" src="tdream.jpg" alt="Dream">
+</a>
+    <a class="artw" target="_blank" href="chill.jpg">
+  <img class="imgart" src="tchill.jpg" alt="Chill">
+</a>
+  <a class="artw" target="_blank" href="headream.jpg">
+  <img class="imgart" src="theadream.jpg" alt="Head-Dream">
+</a>
+  <a class="artw" target="_blank" href="gb.jpg">
+  <img class="imgart" src="tbg.jpg" alt="GB">
+</a>
+  <a class="artw" target="_blank" href="cemetier.jpg">
+  <img class="imgart" src="tcemetier.jpg" alt="La Cimetière">
+</a>
+   <a class="artw" target="_blank" href="glub.jpg">
+  <img class="imgart" src="tglub.jpg" alt="Glub">
+</a>
+<a class="artw" target="_blank" href="sunflowers.jpg">
+  <img class="imgart" src="tsunflowers.jpg" alt="Sunflowers">
+</a>
+    <a class="artw" target="_blank" href="unemployed.jpg">
+  <img class="imgart" src="tunemployed.jpg" alt="Unemployed">
+</a>
+<a class="artw" target="_blank" href="model.jpg">
+  <img class="imgart" src="tmodel.jpg" alt="Model">
+</a>
+ <a class="artw" target="_blank" href="classroom.jpg">
+  <img class="imgart" src="tclassroom.jpg" alt="Classroom">
+</a>
+  <a class="artw" target="_blank" href="cat.jpg">
+  <img class="imgart" src="tcat.jpg" alt="Cat">
+</a>
+   <a class="artw" target="_blank" href="fanwood.jpg">
+  <img class="imgart" src="tfanwood.jpg" alt="Fanwood Station">
+</a>
+   <a class="artw" target="_blank" href="pots.jpg">
+  <img class="imgart" src="tpots.jpg" alt="Pots">
+</a>
+<a class="artw" target="_blank" href="skull.jpg">
+  <img class="imgart" src="tskull.jpg" alt="Skull">
+</a>
+  
+	</center>
+  
+	<br>
+	<p>&nbsp;</p>
+	
+  </div>
+  
+  
+</body>
+</html>
