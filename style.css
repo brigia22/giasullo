@@ -1,14 +1,16 @@
-a:link {color: #b1a296;text-decoration: none;
+a:link {color: #327072;text-decoration: none;
 	border-bottom: 0px dashed black;}
-a:visited {color: #b1a296;text-decoration: none;
+a:visited {color: #327072;text-decoration: none;
 	border-bottom: 1px dashed black;}
-a:hover { color: #7395ae;text-decoration: none;
+a:hover { color: #7C3A58;text-decoration: none;
 	border-bottom: 0px dashed;}
-a:active {color: #7395ae;text-decoration: none;
+a:active {color: #7C3A58;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-color: #557a95;
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-color: #D8DFEE;
 }
 
 img {
@@ -17,7 +19,8 @@ max-width: 100%;
 }
 
 hr.dash {
-	border-top: 1px dashed #b1a296; 
+  max-width: 100%;
+	border-top: 1px dashed #7C3A58; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -29,28 +32,28 @@ hr.dash {
    padding-top: 50px;
 	text-align: center;
 	font-size: 48px;
-	color: #7395ae;
+	color: #7C3A58;
 }
 
 .menu {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 25px;
-  color: white;
+  color: 2A3858;
 }
 
 .findme {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 15px;
-  color: white;
+  color: 2A3858;
 }
 
 .title {
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
-  color: #7395ae;
+  color: #7C3A58;
 }
 
 .stuff {
@@ -60,7 +63,7 @@ hr.dash {
 font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: white;
+  color: 2A3858;
 }
 
 /* Clear floats after the columns */
@@ -103,13 +106,13 @@ width: 100%;
 
 /* artwork */
 .imgart {
-  border: 1px dashed #b1a296;
+  border: 1px dashed #327072;
   padding: 0px;
   opacity: 0.7;
 }
 
 img.imgart:hover {
-   border: 1px dashed #7395ae;
+   border: 1px dashed #7C3A58;
 }
 
 a.artw:link {color: black;text-decoration: none;
