@@ -76,10 +76,15 @@ section::after {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 700px) {
-  name, menu, lower, title, stuff {
+  name, menu, findme, title {
 	    width: 100%;
     height: auto;
   }
+  
+  .stuff {
+    padding-left: 5%;
+    padding-right: 5%;
+  
 }
 
 /* artwork */
