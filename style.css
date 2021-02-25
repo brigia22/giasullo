@@ -1,16 +1,14 @@
-a:link {color: #993B3D;text-decoration: none;
+a:link {color: #b1a296;text-decoration: none;
 	border-bottom: 0px dashed black;}
-a:visited {color: #993B3D;text-decoration: none;
+a:visited {color: #b1a296;text-decoration: none;
 	border-bottom: 1px dashed black;}
-a:hover { color: #305D86;text-decoration: none;
+a:hover { color: #7395ae;text-decoration: none;
 	border-bottom: 0px dashed;}
-a:active {color: #305D86;text-decoration: none;
+a:active {color: #7395ae;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-image: url("background.jpg");
-  background-attachment: fixed;
-  background-color: #ececec;
+  background-color: #557a95;
 }
 
 img {
@@ -19,7 +17,7 @@ max-width: 100%;
 }
 
 hr.dash {
-	border-top: 1px dashed #0E2030; 
+	border-top: 1px dashed #b1a296; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -30,27 +28,29 @@ hr.dash {
   height: auto;
    padding-top: 50px;
 	text-align: center;
+	font-size: 48px;
+	color: #7395ae
 }
 
 .menu {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 25px;
-  color: #0E2030;
+  color: white;
 }
 
 .findme {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 15px;
-  color: #0E2030;
+  color: white;
 }
 
 .title {
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
-  color: #1E5A98;
+  color: #7395ae;
 }
 
 .stuff {
@@ -60,7 +60,7 @@ hr.dash {
 font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: #0E2030;
+  color: white;
 }
 
 /* Clear floats after the columns */
@@ -105,13 +105,13 @@ width: 100%;
 
 /* artwork */
 .imgart {
-  border: 1px dashed #f78888;
+  border: 1px dashed #b1a296;
   padding: 0px;
   opacity: 0.7;
 }
 
 img.imgart:hover {
-   border: 1px dashed #90ccf4;
+   border: 1px dashed #7395ae;
 }
 
 a.artw:link {color: black;text-decoration: none;
