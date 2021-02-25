@@ -32,14 +32,14 @@ hr.dash {
 .name {
    max-width: 100%;
   height: auto;
-   padding-top: 10%;
-	padding-left: 25%;
+   padding-left: 200px;
+  padding-right: 200px;
 	text-align: center;
 }
 
 .menu {
- padding-top: 25%;
-	padding-left: 25%;
+padding-left: 200px;
+  padding-right: 200px;
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 20px;
@@ -47,8 +47,8 @@ hr.dash {
 }
 
 .lower {
- padding-top: 35%;
-	padding-left: 25%;
+ padding-left: 200px;
+  padding-right: 200px;
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 20px;
@@ -56,9 +56,8 @@ hr.dash {
 }
 
 .title {
-	padding-left: 25%;
-		padding-right: 25%;
-	padding-top: 40%;
+	padding-left: 200px;
+  padding-right: 200px;
 	text-align: center;
   font-family: Gentium Basic,calibri,arial;
   text-align: center;
@@ -67,10 +66,9 @@ hr.dash {
 }
 
 .stuff {
-  padding-left: 20%;
-    padding-right: 20%;
-		padding-top: 60%;
-	padding-bottom: 15%;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 80px;
 font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
@@ -86,7 +84,7 @@ section::after {
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 700px) {
-  .name, .menu, .title, .stuff {
+  .name, .menu, .lower, .title, .stuff {
     width: 100%;
     height: auto;
   }
