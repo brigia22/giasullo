@@ -59,10 +59,8 @@ hr.dash {
 .stuff {
   padding-left:300px;
   padding-right:300px;
-	padding-bottom:50px;
-    background-color:#7e685a;
-   background: rgba(76, 175, 80, 0.1);
-font-family: karla,calibri,arial;
+	   background-color:#7e685a;
+   font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
   color: #FFFFFF;
