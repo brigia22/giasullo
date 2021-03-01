@@ -39,14 +39,14 @@ hr.dash {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 25px;
-  color: #c2cad0;
+  color: #FFFFFF;
 }
 
 .findme {
   font-family: karla,calibri,arial;
   text-align: center;
-  font-size: 15px;
-  color: #c2cad0;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 .title {
@@ -63,7 +63,7 @@ hr.dash {
 font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: #c2cad0;
+  color: #FFFFFF;
 }
 
 /* Clear floats after the columns */
