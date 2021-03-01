@@ -57,10 +57,8 @@ hr.dash {
 }
 
 .stuff {
-  width:700px;
+  width: 700px;
   background-color: #7e685a;
-  padding-left:300px;
-  padding-right:300px;
    font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
