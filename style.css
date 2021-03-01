@@ -57,6 +57,7 @@ hr.dash {
 }
 
 .stuff {
+	margin: auto;
   width: 700px;
   background-color: #7e685a;
    font-family: karla,calibri,arial;
