@@ -1,6 +1,6 @@
-a:link {color: #CCCCFF;text-decoration: none;
+a:link {color: #896EB6;text-decoration: none;
 	border-bottom: 0px dashed black;}
-a:visited {color: #CCCCFF;text-decoration: none;
+a:visited {color: #896EB6;text-decoration: none;
 	border-bottom: 1px dashed black;}
 a:hover { color: #305665;text-decoration: none;
 	border-bottom: 0px dashed;}
@@ -57,7 +57,6 @@ hr.dash {
 .stuff {
 	margin: auto;
   width: 750px;
-  background-color: #7e685a;
    font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
