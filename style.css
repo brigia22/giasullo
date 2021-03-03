@@ -1,14 +1,14 @@
-a:link {color: #afd275;text-decoration: none;
+a:link {color: #CCCCFF;text-decoration: none;
 	border-bottom: 0px dashed black;}
-a:visited {color: #afd275;text-decoration: none;
+a:visited {color: #CCCCFF;text-decoration: none;
 	border-bottom: 1px dashed black;}
-a:hover { color: #e7717d;text-decoration: none;
+a:hover { color: #305665;text-decoration: none;
 	border-bottom: 0px dashed;}
-a:active {color: #e7717d;text-decoration: none;
+a:active {color: #305665;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-color: #7e685a;
+  background-color: #ffffff;
 }
 
 img {
@@ -18,7 +18,7 @@ max-width: 100%;
 
 hr.dash {
   max-width: 100%;
-	border-top: 1px dashed #e7717d; 
+	border-top: 1px dashed #E74C3C; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -30,28 +30,28 @@ hr.dash {
    padding-top: 50px;
 	text-align: center;
 	font-size: 48px;
-	color: #e7717d;
+	color: #305665;
 }
 
 .menu {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #305665;
 }
 
 .findme {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #305665;
 }
 
 .title {
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
-  color: #e7717d;
+  color: #E74C3C;
 }
 
 .stuff {
@@ -61,8 +61,30 @@ hr.dash {
    font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #305665;
 }
+
+/* artwork */
+.imgart {
+  border: 1px dashed #CCCCFF;
+  padding: 0px;
+  opacity: 0.7;
+}
+
+img.imgart:hover {
+   border: 1px dashed #305665;
+}
+
+a.artw:link {color: black;text-decoration: none;
+	border-bottom: 0px dashed black;}
+a.artw:visited {color: black;text-decoration: none;
+	border-bottom: 0px dashed black;}
+a.artw:hover { color: black;text-decoration: none;
+	border-bottom: 0px dashed;}
+a.artw:active {color: black;text-decoration: none;
+	border-bottom: 0px dashed;}
+
+
 
 /* Clear floats after the columns */
 section::after {
@@ -103,22 +125,3 @@ width: 100%;
     }
 }
 
-/* artwork */
-.imgart {
-  border: 1px dashed #afd275;
-  padding: 0px;
-  opacity: 0.7;
-}
-
-img.imgart:hover {
-   border: 1px dashed #e7717d;
-}
-
-a.artw:link {color: black;text-decoration: none;
-	border-bottom: 0px dashed black;}
-a.artw:visited {color: black;text-decoration: none;
-	border-bottom: 0px dashed black;}
-a.artw:hover { color: black;text-decoration: none;
-	border-bottom: 0px dashed;}
-a.artw:active {color: black;text-decoration: none;
-	border-bottom: 0px dashed;}
