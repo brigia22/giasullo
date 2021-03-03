@@ -8,8 +8,6 @@ a:active {color: #e7717d;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-image: url("background.jpg");
-  background-attachment: fixed;
   background-color: #7e685a;
 }
 
