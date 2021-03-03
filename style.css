@@ -30,6 +30,7 @@ hr.dash {
    max-width: 100%;
   height: auto;
    text-align: center;
+	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
   font-family: palatino,calibri,arial;
 	color: #283C5D;
