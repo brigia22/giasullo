@@ -33,12 +33,14 @@ hr.dash {
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
   font-family: Georgia;
-	color: #283C5D;
+	color: #ffffff;
 }
 
 .menu {
   margin: auto;
-   width: 850px;
+   width: 650px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-width: 5px;  
     border-style: double;
   background-color: #ffffff;
@@ -66,7 +68,7 @@ hr.dash {
   border-width: 5px;  
     border-style: double;
   background-color: #ffffff;
-  width: 850px;
+  width: 650px;
 	margin: auto;
   padding-left: 50px;
   padding-right: 50px;
