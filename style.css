@@ -1,14 +1,16 @@
-a:link {color: #896EB6;text-decoration: none;
+a:link {color: #96846E;text-decoration: none;
 	border-bottom: 0px dashed black;}
-a:visited {color: #896EB6;text-decoration: none;
+a:visited {color: #96846E;text-decoration: none;
 	border-bottom: 1px dashed black;}
-a:hover { color: #305665;text-decoration: none;
+a:hover { color: #6B8F75;text-decoration: none;
 	border-bottom: 0px dashed;}
-a:active {color: #305665;text-decoration: none;
+a:active {color: #6B8F75;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-color: #ffffff;
+  background-image: url('background.jpg');
+   background-attachment: fixed;
+  background-color: #A3A6AD;
 }
 
 img {
@@ -18,7 +20,7 @@ max-width: 100%;
 
 hr.dash {
   max-width: 100%;
-	border-top: 1px dashed #6E8DB6; 
+	border-top: 1px dashed #CAB14A; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -30,48 +32,53 @@ hr.dash {
    padding-top: 50px;
 	text-align: center;
 	font-size: 48px;
-	color: #305665;
+	color: #283C5D;
 }
 
 .menu {
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 25px;
-  color: #305665;
+  color: #283C5D;
 }
 
 .findme {
+  width: 750px;
+   background-color: #ffffff;
   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 18px;
-  color: #305665;
+  color: #283C5D;
 }
 
 .title {
+  width: 750px;
+  background-color: #ffffff;
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
-  color: #6E8DB6;
+  color: #283C5D;
 }
 
 .stuff {
-	margin: auto;
   width: 750px;
+  background-color: #ffffff;
+	margin: auto;
    font-family: karla,calibri,arial;
   text-align: left;
   font-size: 18px;
-  color: #305665;
+  color: #283C5D;
 }
 
 /* artwork */
 .imgart {
-  border: 1px dashed #CCCCFF;
+  border: 1px dashed #96846E;
   padding: 0px;
   opacity: 0.7;
 }
 
 img.imgart:hover {
-   border: 1px dashed #305665;
+   border: 1px dashed #6B8F75;
 }
 
 a.artw:link {color: black;text-decoration: none;
