@@ -7,9 +7,9 @@ a:hover { color: #6B8F75;text-decoration: none;
 a:active {color: #6B8F75;text-decoration: none;
 	border-bottom: 0px dashed;}
 
-body {
-  background-image: url('background.jpg');
-   background-attachment: fixed;
+/* background-image: url('background.jpg'); background-attachment: fixed; */
+
+body {  
   background-color: #283C5D;
 }
 
