@@ -32,29 +32,30 @@ hr.dash {
    text-align: center;
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
-  font-family: palatino,calibri,arial;
+  font-family: Georgia;
 	color: #283C5D;
 }
 
 .menu {
+   width: 850px;
   border-width: 5px;  
     border-style: double;
   background-color: #ffffff;
-  font-family: karla,calibri,arial;
+  font-family: Calibri;
   text-align: center;
   font-size: 25px;
   color: #283C5D;
 }
 
 .findme {
-   font-family: karla,calibri,arial;
+   font-family: Calibri;
   text-align: center;
   font-size: 18px;
   color: #283C5D;
 }
 
 .title {
-	font-family: Gentium Basic,calibri,arial;
+	font-family: Georgia;
   text-align: center;
   font-size: 36px;
   color: #283C5D;
@@ -66,11 +67,11 @@ hr.dash {
   background-color: #ffffff;
   width: 850px;
 	margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-   font-family: karla,calibri,arial;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   font-family: calibri;
   text-align: left;
   font-size: 18px;
   color: #283C5D;
