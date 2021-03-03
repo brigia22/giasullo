@@ -18,7 +18,7 @@ max-width: 100%;
 
 hr.dash {
   max-width: 100%;
-	border-top: 1px dashed #E74C3C; 
+	border-top: 1px dashed #6E8DB6; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -51,7 +51,7 @@ hr.dash {
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
-  color: #E74C3C;
+  color: #6E8DB6;
 }
 
 .stuff {
