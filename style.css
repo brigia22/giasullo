@@ -10,7 +10,7 @@ a:active {color: #6B8F75;text-decoration: none;
 body {
   background-image: url('background.jpg');
    background-attachment: fixed;
-  background-color: #ffffff;
+  background-color: #283C5D;
 }
 
 img {
@@ -32,7 +32,7 @@ hr.dash {
    text-align: center;
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   font-family: Georgia;
 	color: #ffffff;
 }
