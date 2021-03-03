@@ -8,9 +8,7 @@ a:active {color: #6B8F75;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
-  background-image: url('background.jpg');
-   background-attachment: fixed;
-  background-color: #A3A6AD;
+  background-color: #ffffff;
 }
 
 img {
@@ -27,6 +25,8 @@ hr.dash {
 }
 
 .name {
+  background-image: url('background.jpg');
+   background-attachment: fixed;
    max-width: 100%;
   height: auto;
    padding-top: 50px;
@@ -43,17 +43,13 @@ hr.dash {
 }
 
 .findme {
-  width: 750px;
-   background-color: #ffffff;
-  font-family: karla,calibri,arial;
+   font-family: karla,calibri,arial;
   text-align: center;
   font-size: 18px;
   color: #283C5D;
 }
 
 .title {
-  width: 750px;
-  background-color: #ffffff;
 	font-family: Gentium Basic,calibri,arial;
   text-align: center;
   font-size: 36px;
@@ -62,7 +58,6 @@ hr.dash {
 
 .stuff {
   width: 750px;
-  background-color: #ffffff;
 	margin: auto;
    font-family: karla,calibri,arial;
   text-align: left;
