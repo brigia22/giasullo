@@ -8,6 +8,8 @@ a:active {color: #6B8F75;text-decoration: none;
 	border-bottom: 0px dashed;}
 
 body {
+  background-image: url('background.jpg');
+   background-attachment: fixed;
   background-color: #ffffff;
 }
 
@@ -25,12 +27,9 @@ hr.dash {
 }
 
 .name {
-  background-image: url('background.jpg');
-   background-attachment: fixed;
    max-width: 100%;
   height: auto;
-   padding-top: 50px;
-	text-align: center;
+   text-align: center;
 	font-size: 48px;
 	color: #283C5D;
 }
@@ -57,6 +56,7 @@ hr.dash {
 }
 
 .stuff {
+  background-color: #ffffff;
   width: 750px;
 	margin: auto;
    font-family: karla,calibri,arial;
