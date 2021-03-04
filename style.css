@@ -26,7 +26,7 @@ hr.dash {
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
-}
+	}
 
 .name {
    max-width: 100%;
@@ -37,11 +37,12 @@ hr.dash {
   letter-spacing: 4px;
   font-family: Georgia;
 	color: #ffffff;
-}
+	}
 
 .menu {
   margin: auto;
    width: 30%;
+	max-width:100%
   padding-top: 5px;
   padding-bottom: 5px;
   border-width: 4px;  
@@ -59,6 +60,7 @@ hr.dash {
   text-align: center;
   font-size: 18px;
   color: #283C5D;
+	max-width:100%
 }
 
 .title {
@@ -66,6 +68,7 @@ hr.dash {
   text-align: center;
   font-size: 36px;
   color: #283C5D;
+	max-width:100%
 }
 
 .stuff {
@@ -74,6 +77,7 @@ hr.dash {
 	border-color: #A28933;
   background-color: #ffffff;
   width: 50%;
+	max-width:100%
 	margin: auto;
   padding-left: 50px;
   padding-right: 50px;
@@ -100,7 +104,7 @@ img.imgart:hover {
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .name, .menu, .title, .stuff, .findme {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%;
     font-family: calibri;
   }
 }
