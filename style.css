@@ -10,6 +10,8 @@ a:active {color: #6B8F75;text-decoration: none;
 /* background-image: url('background.jpg'); background-attachment: fixed; */
 
 body {  
+	background-image: url('background.jpg'); 
+	background-attachment: fixed;
   background-color: #283C5D;
 }
 
