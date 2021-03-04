@@ -46,6 +46,7 @@ hr.dash {
   padding-bottom: 5px;
   border-width: 5px;  
     border-style: double;
+	border-color: #A58D2D;
   background-color: #ffffff;
   font-family: Calibri;
   text-align: center;
@@ -70,6 +71,7 @@ hr.dash {
 .stuff {
   border-width: 5px;  
     border-style: double;
+	border-color: #A58D2D;
   background-color: #ffffff;
   width: 650px;
 	margin: auto;
