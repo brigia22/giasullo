@@ -114,34 +114,10 @@ section::after {
   clear: both;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 700px) {
-  .name {
-width: 100%;
-    height: auto;
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .name, .menu, .title, .stuff, .findme {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-	
-  .menu {
-  	    width: 100%;
-    height: auto;
-    font-size: 18px;
-  }
-  
-   .findme {
-	   width: 100%;
-    height: auto;
-		text-align: center;
-	}
-  
-  .title {
-	  	    width: 100%;
-    height: auto;
-      }
-  
-  .stuff {
-       width: 100%;
-    height: auto;
-        }
-	
 }
 
