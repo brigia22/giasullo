@@ -41,7 +41,7 @@ hr.dash {
 
 .menu {
   margin: auto;
-   width: 600px;
+   width: 20%;
   padding-top: 5px;
   padding-bottom: 5px;
   border-width: 4px;  
@@ -73,7 +73,7 @@ hr.dash {
     border-style: double;
 	border-color: #699177;
   background-color: #ffffff;
-  width: 650px;
+  width: 60%;
 	margin: auto;
   padding-left: 50px;
   padding-right: 50px;
@@ -96,28 +96,12 @@ img.imgart:hover {
    border: 1px dashed #6B8F75;
 }
 
-a.artw:link {color: black;text-decoration: none;
-	border-bottom: 0px dashed black;}
-a.artw:visited {color: black;text-decoration: none;
-	border-bottom: 0px dashed black;}
-a.artw:hover { color: black;text-decoration: none;
-	border-bottom: 0px dashed;}
-a.artw:active {color: black;text-decoration: none;
-	border-bottom: 0px dashed;}
-
-
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .name, .menu, .title, .stuff, .findme {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    font-family: calibri;
   }
 }
 
