@@ -35,36 +35,36 @@ hr.dash {
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
   letter-spacing: 4px;
-  font-family: Georgia;
+  font-family: 'Georgia';
 	color: #ffffff;
 	}
 
 .menu {
   margin: auto;
-   width: 30%;
-	max-width:100%
+   width: 40%;
+	max-width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   border-width: 4px;  
     border-style: double;
 	border-color: #A28933;
   background-color: #ffffff;
-  font-family: Calibri;
+  font-family: 'Calibri';
   text-align: center;
   font-size: 25px;
   color: #283C5D;
 }
 
 .findme {
-   font-family: Calibri;
+   font-family: 'Calibri';
   text-align: center;
   font-size: 18px;
   color: #283C5D;
-	max-width:100%
+	max-width: 100%;
 }
 
 .title {
-	font-family: Georgia;
+	font-family: 'Georgia';
   text-align: center;
   font-size: 36px;
   color: #283C5D;
@@ -77,13 +77,13 @@ hr.dash {
 	border-color: #A28933;
   background-color: #ffffff;
   width: 50%;
-	max-width:100%
-	margin: auto;
+  margin: auto;
+	max-width: 100%;	
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 20px;
-   font-family: calibri;
+   font-family: 'calibri';
   text-align: left;
   font-size: 18px;
   color: #283C5D;
@@ -105,7 +105,7 @@ img.imgart:hover {
 @media screen and (max-width: 800px) {
   .name, .menu, .title, .stuff, .findme {
     width: 100%;
-    font-family: calibri;
+    font-family: 'calibri';
   }
 }
 
