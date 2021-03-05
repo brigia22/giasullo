@@ -41,7 +41,7 @@ hr.dash {
 
 .menu {
   margin: auto;
-   width: 40%;
+   width: 45%;
 	max-width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -76,7 +76,7 @@ hr.dash {
     border-style: double;
 	border-color: #A28933;
   background-color: #ffffff;
-  width: 50%;
+  width: 45%;
   margin: auto;
 	max-width: 100%;	
   padding-left: 50px;
@@ -101,11 +101,9 @@ img.imgart:hover {
 }
 
 
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .name, .menu, .title, .stuff, .findme {
+@media only screen and (max-width: 760px) {
+  /* For mobile phones: */
+ .name, .menu, .findme, .title, .stuff {
     width: 100%;
-    font-family: 'calibri';
   }
 }
-
