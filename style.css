@@ -39,9 +39,11 @@ hr.dash {
 
 .menu {
   margin: auto;
-   width: 55%;
+   width: 47%;
 	 padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-width: 4px;  
     border-style: double;
 	border-color: #A28933;
@@ -64,7 +66,7 @@ hr.dash {
     border-style: double;
 	border-color: #A28933;
   background-color: #ffffff;
-  width: 50%;
+  width: 47%;
   margin: auto;
 	 padding-left: 50px;
   padding-right: 50px;
@@ -83,32 +85,46 @@ hr.dash {
   color: #283C5D;
 }
 
-@media only screen and (max-width: 760px) {
-  /* For mobile phones: */
-[class*="name"] {
+
+@media screen and (max-width: 800px) {
+  
+  .name {
     width: 100%;
+    font-family: 'georgia';
+    font-size: 20px;
   }
-  [class*="menu"] {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  [class*="title"] {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  [class*="stuff"] {
+  
+  .menu {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    font-family: 'calibri';
+    font-size: 20px;
   }
-  [class*="findme"] {
+  
+  .title {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'georgia';
+  }
+  
+  .stuff {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'calibri';
+  font-size: 18px;
+  color: #283C5D;
+  }
+ 
+  .findme {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
 }
+
 
 /* artwork */
 .imgart {
