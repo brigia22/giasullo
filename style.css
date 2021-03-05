@@ -28,11 +28,11 @@ hr.dash {
 
 .name {
     text-align: center;
-	text-shadow: 2px 2px 4px #283C5D;
-	font-size: 48px;
+	text-shadow: 2px 2px 4px #ffffff;
+	font-size: 50px;
   letter-spacing: 4px;
   font-family: 'Georgia';
-	color: #ffffff;
+	color: #283C5D;
 	}
 
 .menu {
