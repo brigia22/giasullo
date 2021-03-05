@@ -1,11 +1,11 @@
 a:link {color: #96846E;text-decoration: none;
-	border-bottom: 0px dashed black;}
+	}
 a:visited {color: #96846E;text-decoration: none;
-	border-bottom: 1px dashed black;}
+	}
 a:hover { color: #6B8F75;text-decoration: none;
-	border-bottom: 0px dashed;}
+	}
 a:active {color: #6B8F75;text-decoration: none;
-	border-bottom: 0px dashed;}
+	}
 
 /* background-image: url('background.jpg'); background-attachment: fixed; */
 
@@ -29,8 +29,7 @@ hr.dash {
 	}
 
 .name {
-   height: auto;
-   text-align: center;
+    text-align: center;
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
   letter-spacing: 4px;
@@ -91,15 +90,23 @@ hr.dash {
   }
   [class*="menu"] {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   [class*="title"] {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   [class*="stuff"] {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   [class*="findme"] {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
