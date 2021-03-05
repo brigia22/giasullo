@@ -28,7 +28,7 @@ hr.dash {
 
 .name {
     text-align: center;
-	text-shadow: 2px 2px 4px #ffffff;
+	text-shadow: 2px 2px 4px #A28933;
 	font-size: 50px;
   letter-spacing: 4px;
   font-family: 'Georgia';
@@ -55,6 +55,7 @@ hr.dash {
 .title {
 	font-family: 'Georgia';
   text-align: center;
+	text-shadow: 2px 2px 4px #A28933;
   font-size: 36px;
   color: #283C5D;
 	}
