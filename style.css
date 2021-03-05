@@ -29,8 +29,7 @@ hr.dash {
 	}
 
 .name {
-   max-width: 100%;
-  height: auto;
+   height: auto;
    text-align: center;
 	text-shadow: 2px 2px 4px #000000;
 	font-size: 48px;
@@ -41,9 +40,8 @@ hr.dash {
 
 .menu {
   margin: auto;
-   width: 45%;
-	max-width: 100%;
-  padding-top: 5px;
+   width: 55%;
+	 padding-top: 5px;
   padding-bottom: 5px;
   border-width: 4px;  
     border-style: double;
@@ -60,7 +58,6 @@ hr.dash {
   text-align: center;
   font-size: 18px;
   color: #283C5D;
-	max-width: 100%;
 }
 
 .title {
@@ -68,18 +65,16 @@ hr.dash {
   text-align: center;
   font-size: 36px;
   color: #283C5D;
-	max-width:100%
-}
+	}
 
 .stuff {
   border-width: 4px;  
     border-style: double;
 	border-color: #A28933;
   background-color: #ffffff;
-  width: 45%;
+  width: 50%;
   margin: auto;
-	max-width: 100%;	
-  padding-left: 50px;
+	 padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 20px;
@@ -87,6 +82,14 @@ hr.dash {
   text-align: left;
   font-size: 18px;
   color: #283C5D;
+}
+
+
+@media only screen and (max-width: 760px) {
+  /* For mobile phones: */
+ .name, .menu, .findme, .title, .stuff {
+    width: 100%;
+  }
 }
 
 /* artwork */
@@ -100,10 +103,3 @@ img.imgart:hover {
    border: 1px dashed #6B8F75;
 }
 
-
-@media only screen and (max-width: 760px) {
-  /* For mobile phones: */
- .name, .menu, .findme, .title, .stuff {
-    width: 100%;
-  }
-}
