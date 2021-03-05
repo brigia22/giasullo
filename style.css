@@ -1,6 +1,6 @@
-a:link {color: #96846E;text-decoration: none;
+a:link {color: #A28933;text-decoration: none;
 	}
-a:visited {color: #96846E;text-decoration: none;
+a:visited {color: #A28933;text-decoration: none;
 	}
 a:hover { color: #6B8F75;text-decoration: none;
 	}
@@ -44,7 +44,7 @@ hr.dash {
   padding-right: 50px;
   border-width: 4px;  
     border-style: double;
-	border-color: #A28933;
+	border-color: #283C5D;
   background-color: #ffffff;
   font-family: 'Calibri';
   text-align: center;
@@ -62,7 +62,7 @@ hr.dash {
 .stuff {
   border-width: 4px;  
     border-style: double;
-	border-color: #A28933;
+	border-color: #283C5D;
   background-color: #ffffff;
   width: 47%;
   margin: auto;
