@@ -7,8 +7,6 @@ a:hover { color: #6B8F75;text-decoration: none;
 a:active {color: #6B8F75;text-decoration: none;
 	}
 
-/* background-image: url('background.jpg'); background-attachment: fixed; */
-
 body {  
 	background-image: url('background.jpg'); 
 	background-attachment: fixed;
@@ -85,13 +83,14 @@ hr.dash {
   color: #283C5D;
 }
 
+/* responsive design */
 
 @media screen and (max-width: 800px) {
   
   .name {
     width: 100%;
     font-family: 'georgia';
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .menu {
@@ -107,6 +106,7 @@ hr.dash {
     padding-left: 0px;
     padding-right: 0px;
     font-family: 'georgia';
+	  font-size: 15px;
   }
   
   .stuff {
