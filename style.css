@@ -20,7 +20,7 @@ max-width: 100%;
 
 hr.dash {
   max-width: 100%;
-	border-top: 1px dashed #A28933; 
+	border-top: 1px #A28933; 
   height: 1px; 
 	width: 450px;
   border-bottom: 0px;
@@ -129,12 +129,12 @@ hr.dash {
 
 /* artwork */
 .imgart {
-  border: 1px dashed #96846E;
+  border: 1px #283C5D;
   padding: 0px;
   opacity: 0.7;
 }
 
 img.imgart:hover {
-   border: 1px dashed #6B8F75;
+   border: 1px #A28933;
 }
 
