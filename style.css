@@ -131,10 +131,11 @@ hr.dash {
 .imgart {
   border: 1px solid #283C5D;
   padding: 0px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 img.imgart:hover {
    border: 1px solid #A28933;
+  opacity: 1.0;
 }
 
